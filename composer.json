@@ -1,10 +1,10 @@
 {
-    "name": "amirhamdy/giata-hotels-api",
-    "description": "this is a giata hotels api",
+    "name": "ismailansari/giata-hotels-api",
+    "description": "Reserval Package to use GIATA API's",
     "authors": [
         {
-            "name": "Amir Hamdy",
-            "email": "amirhamdy4@gmail.com"
+            "name": "Muhammad Ismail",
+            "email": "muhammad.ismail@ilsainteractive.com"
         }
     ],
     "minimum-stability": "dev",
