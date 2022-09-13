@@ -59,7 +59,7 @@ class GiataAPI
         try {
             $response = $client->post($url);
             $body = $response->getBody()->getContents();
-            return xmlToArray::convert($body);
+            return XmlToArray::convert($body);
         } catch (GuzzleException $e) {
             return ['status' => 500, 'error' => $e->getMessage()];
         }
